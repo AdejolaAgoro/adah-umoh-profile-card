@@ -55,6 +55,24 @@ img {
     margin-bottom: 1rem;
 }
 
+.profile-skills{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    gap: 0.5rem;
+   
+}
+
+li{
+    background-color: rgba(233, 194, 233, 0.604);
+    padding: 2px 10px;
+     color: rgba(128, 0, 128, 0.832);
+     border-radius: 8px;
+     font-size: 14px;
+     text-wrap: nowrap;
+}
+
 .profile-footer{
     display: flex;
     justify-content: space-between;
@@ -62,6 +80,7 @@ img {
 
 .profile-footer > span{
     display: flex;
+    align-items: center;
     gap: 0.5rem;
     color: rgba(128, 0, 128, 0.832);
 }

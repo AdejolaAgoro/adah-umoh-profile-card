@@ -1,3 +1,5 @@
+import Skills from "./Skills";
+
 export default function ProfileDetails() {
   return (
     <div className="profile-details">
@@ -20,7 +22,8 @@ export default function ProfileDetails() {
         </svg>
       </h2>
       <p>Product Designer who focuses on simplicity & usability</p>
-    
+    {/* Skills */}
+    <Skills/>
       <div className="profile-footer">
         <span>
           <svg
